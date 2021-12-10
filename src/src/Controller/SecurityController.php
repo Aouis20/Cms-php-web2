@@ -30,4 +30,9 @@ class SecurityController extends BaseController
   {
     return $this->render('CreateUser', 'Frontend/create-user', []);
   }
+
+  public function profile(int $number = 5)
+  {
+    return $this->render('Profile', 'Frontend/profile', []);
+  }
 }

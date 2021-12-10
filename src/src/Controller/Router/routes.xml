@@ -3,6 +3,7 @@
   <!-- //FrontEnd -->
   <route p="" controller="FrontController" action="index"/>
   <route p="article" controller="FrontController" action="show" params="id" />
+
   <!-- //Admin -->
   <route p="admin" controller="AdminController" action="index"/>
   <route p="post-comments" controller="AdminController" action="postComments"/>
@@ -11,6 +12,7 @@
   <route p="delete-article" controller="AdminController" action="deletePost" params="id"/>
   <route p="update-article" controller="AdminController" action="updatePost" params="id"/>
   <route p="userlist" controller="AdminController" action="userlist"/>
+  
   <!-- Security -->
   <route p="login" controller="SecurityController" action="login"/>
   <route p="authentification" controller="SecurityController" action="authentification"/>
